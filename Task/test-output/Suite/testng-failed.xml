@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="ReportName" value="Verification of survey"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="testName" value="Verification of survey"/>
+  <test name="Verification of survey">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="testName" value="Verification of survey"/>
+    <classes>
+      <class name="testcases.Survey"/>
+    </classes>
+  </test> <!-- Verification of survey -->
+</suite> <!-- Failed suite [Suite] -->
