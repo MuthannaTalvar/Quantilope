@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-02T23:40:23Z" name="Suite" finished-at="2022-02-02T23:42:19Z" duration-ms="115756">
+    <groups>
+      <group name="Regression">
+        <method signature="Survey.RegressionTest()[pri:0, instance:testcases.Survey@1ce24091]" name="RegressionTest" class="testcases.Survey"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-02-02T23:40:23Z" name="Verification of survey" finished-at="2022-02-02T23:42:19Z" duration-ms="115756">
+      <class name="testcases.Survey">
+        <test-method is-config="true" signature="testSetup(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testcases.Survey@1ce24091]" started-at="2022-02-03T00:40:23Z" name="testSetup" finished-at="2022-02-03T00:40:50Z" duration-ms="26646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Verification of survey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void testcases.Survey.RegressionTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="RegressionTest()[pri:0, instance:testcases.Survey@1ce24091]" started-at="2022-02-03T00:40:50Z" name="RegressionTest" finished-at="2022-02-03T00:42:18Z" duration-ms="88326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegressionTest -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:testcases.Survey@1ce24091]" started-at="2022-02-03T00:42:18Z" name="closebrowser" finished-at="2022-02-03T00:42:19Z" duration-ms="762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegressionTest status=SUCCESS method=Survey.RegressionTest()[pri:0, instance:testcases.Survey@1ce24091] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testcases.Survey -->
+    </test> <!-- Verification of survey -->
+  </suite> <!-- Suite -->
+</testng-results>
